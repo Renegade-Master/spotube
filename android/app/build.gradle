@@ -29,6 +29,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
+    namespace "oss.krtirtho.spotube"
     compileSdkVersion 34
 
     ndkVersion "25.1.8937393"
