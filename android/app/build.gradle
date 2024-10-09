@@ -29,6 +29,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
+    namespace "oss.renegademaster.spotube"
     compileSdkVersion 34
 
     ndkVersion "25.1.8937393"
@@ -47,7 +48,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "oss.krtirtho.spotube"
+        applicationId "oss.renegademaster.spotube"
         minSdkVersion 24
         targetSdkVersion 34
         versionCode flutterVersionCode.toInteger()

@@ -1,4 +1,4 @@
-package oss.krtirtho.spotube
+package oss.renegademaster.spotube
 
 import io.flutter.embedding.android.FlutterActivity
 

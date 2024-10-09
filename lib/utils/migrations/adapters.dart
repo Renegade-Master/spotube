@@ -19,7 +19,7 @@ class SkipSegment {
   SkipSegment(this.start, this.end);
 
   static String version = 'v1';
-  static final boxName = "oss.krtirtho.spotube.skip_segments.$version";
+  static final boxName = "oss.renegademaster.spotube.skip_segments.$version";
   static LazyBox get box => Hive.lazyBox(boxName);
 
   SkipSegment.fromJson(Map<String, dynamic> json)
@@ -77,7 +77,7 @@ class SourceMatch {
   Map<String, dynamic> toJson() => _$SourceMatchToJson(this);
 
   static String version = 'v1';
-  static final boxName = "oss.krtirtho.spotube.source_matches.$version";
+  static final boxName = "oss.renegademaster.spotube.source_matches.$version";
 
   static LazyBox<SourceMatch> get box => Hive.lazyBox<SourceMatch>(boxName);
 }
